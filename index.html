@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+<body>
+    <form action="info" method="post">
+        <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_mail">
+       <div class="gender">
+         <label for="genderM">Male</label>
+            <input type="radio" id="genderM"
+            name="info" value="male">
+
+         <label for="genderF">Female</label>
+           <input type="radio" id="genderF"
+           name="info" value="female">
+        </div>
+
+        <label for="DOB">Year of Birth:</label>
+          <input type="date" id="DOB" name="DOB" min="1900-01-01" max="2018-07-20" required>
+          <span class="validity"></span>
+
+        <label for="myURL">Enter your personal URL</label>
+          <input id="myURL" name="myURL" type="url" required>
+
+    <textarea name="comment" form="usrform">Enter text here...</textarea>
+
+        <input type="submit">
+        <input type="reset" value="Clear All">
+
+        <progress min="0" max="100" value="20">20</progress>
+        <meter min="0" max="100" value="50">50</meter>
+                
+    </form>
+
+
+</body>
+</html>

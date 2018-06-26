@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    position: relative;
+    background-color: green;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 100px;
+}
+
+input, textarea {
+    outline: none;
+    border: 1.5px solid #ddd;
+    margin-bottom: 10px;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255, 0 , 0 ,0.5);
+    border: 1px solid rgba(255, 0 , 0 )
+}
+
+form {
+  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+  width: 50%;
+  height: 450px;
+  color: #09C;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 5px;
+  
+}
+
+.gender{
+    display: flex;
+}
+
+.no-progressbar,meter .box { color: orange; }
+.progressbar,meter .box { color: purple; }
+
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+  form{
+      width: 40%;
+      height: 30%;
+      color: red;
+  }
+  body{
+      background-color: white;
+  }
+  .gender{
+      color: saddlebrown;
+  }
+    }
