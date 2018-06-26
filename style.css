@@ -45,7 +45,7 @@ form {
 .no-progressbar,meter .box { color: orange; }
 .progressbar,meter .box { color: purple; }
 
-@media only screen and (min-width: 600px) and (max-width: 1000px){
+@media only screen and (max-width: 600px) {
   form{
       width: 40%;
       height: 30%;
